@@ -1,0 +1,2 @@
+const searchClient=algoliasearch("YWW4OR0G1W","76d9e776bb72aebad4d9d4ce0a754e5c"),search=instantsearch({indexName:"shopify_products",searchClient});search.addWidgets([instantsearch.widgets.searchBox({container:"#searchbox"}),instantsearch.widgets.hits({container:"#hits"})]),search.start();
+//# sourceMappingURL=/cdn/shop/t/70/assets/search_ui_instant_search.js.map?v=159156198501016779171758428970
